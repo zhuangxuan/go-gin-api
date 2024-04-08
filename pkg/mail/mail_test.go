@@ -8,9 +8,9 @@ func TestSend(t *testing.T) {
 	options := &Options{
 		MailHost: "smtp.163.com",
 		MailPort: 465,
-		MailUser: "xxx@163.com",
-		MailPass: "", //密码或授权码
-		MailTo:   "",
+		MailUser: "17602196562@163.com",
+		MailPass: "JPIXSNOGYCZMXWGV", //密码或授权码
+		MailTo:   "17602196562@163.com",
 		Subject:  "subject",
 		Body:     "body",
 	}
