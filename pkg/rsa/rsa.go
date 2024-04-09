@@ -43,6 +43,11 @@ func NewPrivate(privateKey string) Private {
 	}
 }
 
+// aes 是什么的简称 请说明
+// aes 是 Advanced Encryption Standard 的缩写，中文名为高级加密标准，是一种对称加密算法，是美国联邦政府采用的一种区块加密标准。
+// rsa 是什么的简称 请说明
+// rsa 是 Rivest-Shamir-Adleman 的缩写，中文名为RSA加密算法，是一种非对称加密算法，需要一对公钥和私钥来进行加密和解密。
+
 func (pub *rsaPub) i() {}
 
 func (pub *rsaPub) Encrypt(encryptStr string) (string, error) {

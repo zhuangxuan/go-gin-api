@@ -14,6 +14,8 @@ var (
 	pro    Environment = &environment{value: "pro"}
 )
 
+// 这句话是在定义一个接口，用于限制environment的实现
+// 也就是说environment实现了Environment中所有的方法，那么就可以赋值给Environment接口
 var _ Environment = (*environment)(nil)
 
 // Environment 环境配置
